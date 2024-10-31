@@ -60,11 +60,11 @@ function PubSubMessages() {
         </div>
         <input className="font-manrope px-3 rounded-md items-center text-base min-w-[720px] w-[752px] whitespace-nowrap text-zinc-800 text-opacity-100 leading-6 font-light h-12 border-zinc-300 border-solid border bg-neutral-100" value={messageText}  onChange={e => setMessageText(e.target.value)} />
         <div className="flex flex-row justify-start items-start gap-4 w-[368px]">
-          <div className="flex justify-center items-center rounded-md w-44 h-10 bg-black">
+          {/* <div className="flex justify-center items-center rounded-md w-44 h-10 bg-black">
             <div className="font-manrope text-base min-w-[136px] whitespace-nowrap text-white text-opacity-100 leading-4 font-medium">
               <button onClick={publicFromClientHandler}>Publish from Client</button>
             </div>
-          </div>
+          </div> */}
           <div className="flex justify-center items-center rounded-md w-44 h-10 bg-black">
             <div className="font-manrope text-base min-w-[136px] whitespace-nowrap text-white text-opacity-100 leading-4 font-medium">
               <button onClick={publicFromServerHandler}>Publish from Server</button>
